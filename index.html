@@ -8,11 +8,12 @@
   <title>AKAN NAME GENERATOR</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class=jumbotron>
+    <div class="jumbotron">
       <h1>Akan</h1>
       <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the
         order in which they were born. These "day names" have further meanings concerning the soul and character
@@ -51,14 +52,61 @@
               <label>Gender</label><br>
               <input type="radio" id="gender" name="gender" value="male">Male<br>
               <input type="radio" id="gender" name="gender" value="female">Female<br>
-              <input type="submit" onclick="giveAkanName()" value="Submit">
+              <input type="submit" onclick="myFunction()" value="Submit">
             </div>
           </div>
         </form>
 
       </div>
     </div>
-
+    <div class="table-bordered">
+      <table class="table table-condensed">
+        <thead>
+          <tr>
+            <th>Days..</th>
+            <th>MaleNames..</th>
+            <th>FemaleNames..</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sunday</td>
+            <td>Kwasi</td>
+            <td>Akosua</td>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td>Kwadwo</td>
+            <td>Adwoa</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>Kwabena</td>
+            <td>Abenaa</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Kwako</td>
+            <td>Akua</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Yaw</td>
+            <td>Yah</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Kofi</td>
+            <td>Afua</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Kwame</td>
+            <td>Ama</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>

@@ -2,7 +2,29 @@ body{
     background-image: url("https://bit.ly/39v0Fl2");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1000px;
 }
 .pick{
     color: whitesmoke;
+}
+.table th {
+    color: cyan;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+.table td {
+    color: chartreuse;
+    text-shadow: coral;
+    font-size: 20px;
+}
+table:hover{
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+table{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    /* transition: all 3s ease-in-out; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

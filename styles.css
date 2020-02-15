@@ -7,6 +7,19 @@ body{
 .pick{
     color: whitesmoke;
 }
-.btn {
-    background-color: cyan;
+.table th {
+    color: cyan;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+.table td {
+    color: chartreuse;
+    text-shadow: coral;
+    font-size: 20px;
+}
+table:hover{
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+table{
+    background-color: grey;
 }

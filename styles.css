@@ -23,3 +23,7 @@ table:hover{
 table{
     background-color: grey;
 }
+h1{
+    text-align: center;
+    transition: all 3s ease-in-out;
+}

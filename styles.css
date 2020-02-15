@@ -25,6 +25,6 @@ table{
 }
 h1{
     text-align: center;
-    /* transition: all 3s ease-in-out; */
+    transition: all 8s ease-in-out;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

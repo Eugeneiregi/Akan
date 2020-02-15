@@ -1715,7 +1715,9 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6;
+  /* border: 1px solid #dee2e6; */
+  color: aqua;
+  
 }
 
 .table-bordered th,

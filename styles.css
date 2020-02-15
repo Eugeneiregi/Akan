@@ -2,6 +2,7 @@ body{
     background-image: url("https://bit.ly/39v0Fl2");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1000px;
 }
 .pick{
     color: whitesmoke;

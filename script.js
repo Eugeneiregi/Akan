@@ -25,11 +25,11 @@ function myFunction () {
     }
     if(gender ==="male" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
         akanName = maleNames[dayBorn];
-    alert("Hello Sir"+ "You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
+    alert("Hello Sir" + "You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
     }
     else if (gender === "female" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
         akanName = femaleNames[dayBorn];
-    alert("Hello Madam"+ "You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
+    alert("Hello Madam" + "You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
     }
 }
     function getGender(){

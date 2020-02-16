@@ -12,7 +12,7 @@
  * You need to have internet on your machine to run the website
  * You need to have a github account
  ## Live Link
-  - Click to get my Github link https://
+  - Click to get my Github link https://eugeneiregi.github.io/Akan/
 
    ## Contact Details
   - Email: eugeneiregi2019@gmail.com

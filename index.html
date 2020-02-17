@@ -9,12 +9,15 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Eagle+Lake&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="container-fluid">
     <div class="jumbotron">
-      <h1><marquee behaviour="scroll" width="1000px" height="px">Akan Names in Ghana</marquee></h1>
+      <h1>
+        <marquee behaviour="scroll" width="1000px" height="px">Akan Names in Ghana</marquee>
+      </h1>
       <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the
         order in which they were born. These "day names" have further meanings concerning the soul and character
         of the person. Middle names have considerably more variety and can refer to their birth order, twin
@@ -31,41 +34,69 @@
     </div>
     <div>
       <div class="form row">
-        <div class="col-4">
+        <div class="col-6">
 
+
+          <form class="mx-auto">
+            <div class="pick">
+              <div>
+                <label>Year</label><br>
+                <input type="text" id="year" placeholder="Year.." minlength="4" maxlength="4" step="1" required><br>
+              </div>
+              <div>
+                <select name="month" id="month">
+                  <option value="0"> - MONTH - </option>
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6">June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select><br>
+              </div>
+              <div>
+                <label>Day</label><br>
+                <input type="text" id="day" placeholder="Day.." required><br>
+              </div>
+              <div>
+                <label>Gender</label><br>
+                <input type="radio" id="gender" name="gender" value="male">Male<br>
+                <input type="radio" id="gender" name="gender" value="female">Female<br>
+                <input type="button" onclick="myFunction()" value="Submit">
+                <button type="reset">Clear</button>
+
+              </div>
+            </div>
+          </form>
         </div>
-        <form>
-          <div class="pick">
-            <div>
-              <label>Year</label><br>
-              <input type="text" id="year" placeholder="Year.." minlength="4" maxlength="4" step="1" required><br>
-            </div>
-            <div>
-              <label>Month</label><br>
-              <input type="text" id="month" placeholder="Month.." minlength="1" maxlength="2" required><br>
-            </div>
-            <div>
-              <label>Day</label><br>
-              <input type="text" id="day" placeholder="Day.." required><br>
-            </div>
-            <div>
-              <label>Gender</label><br>
-              <input type="radio" id="gender" name="gender" value="male">Male<br>
-              <input type="radio" id="gender" name="gender" value="female">Female<br>
-              <input type="submit" onclick="myFunction()" value="Submit">
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <p id="output"> </p>
             </div>
           </div>
-        </form>
-
+        </div>
       </div>
     </div>
     <div class="table-bordered">
       <table class="table table-condensed">
         <thead>
           <tr>
-            <th><marquee behaviour="diaspora" width="100px" height="px">Days of the week.</marquee></th>
-            <th><marquee behaviour="scroll" width="100px" height="px">MaleNames..</marquee></th>
-            <th><marquee behaviour="scroll" width="100px" height="px">FemaleNames..</marquee></th>
+            <th>
+              <marquee behaviour="diaspora" width="100px" height="px">Days of the week.</marquee>
+            </th>
+            <th>
+              <marquee behaviour="scroll" width="100px" height="px">MaleNames..</marquee>
+            </th>
+            <th>
+              <marquee behaviour="scroll" width="100px" height="px">FemaleNames..</marquee>
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -109,7 +140,10 @@
     </div>
   </div>
   <script src="script.js"></script>
-  <footer></footer>
+  <footer>
+    &COPY;@ email:eugeneregi2019@gmail.com
+    &copy;Pnone number: 0723074557
+  </footer>
 </body>
 
 </html>

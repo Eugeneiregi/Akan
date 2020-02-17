@@ -17,7 +17,7 @@ body{
     text-shadow: coral;
     font-size: 20px;
 }
-table:hover{
+table {
     transition: cubic-bezier(1, 0, 0, 1);
 }
 table{
@@ -27,4 +27,12 @@ h1{
     text-align: center;
     transition: all 8s ease-in-out;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#month{
+    width: 225px;
+}
+.card{
+    color:purple;
+    font-family: 'Eagle Lake', cursive;
+    font-size: x-large;
 }

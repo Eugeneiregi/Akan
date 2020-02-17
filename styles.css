@@ -35,4 +35,19 @@ h1{
     color:purple;
     font-family: 'Eagle Lake', cursive;
     font-size: x-large;
+}footer {
+    background-color:whitesmoke;
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    z-index:300;
+    bottom: 0;
+    display: none;
+    padding: 10px;
 }
+
+.footer ul.navigation li {
+    float: left;
+    margin-right: 16px;
+    display: block;
+    }

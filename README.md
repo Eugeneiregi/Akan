@@ -11,6 +11,12 @@
  ## Technical requirements
  * You need to have internet on your machine to run the website
  * You need to have a github account
+ ## Behavior Driven Development(BDD); 
+ Behavior | input     |output
+ -------- |-----------|----------
+ birthday |1996/08/20 |Kwabena 
+ male     |1996/08/20 |Kwabena
+ female   |1996/08/20 |Abenaa
  ## Live Link
   - Click to get my Github link https://eugeneiregi.github.io/Akan/
 
